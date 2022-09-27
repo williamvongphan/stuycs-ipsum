@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StuyCS Ipsum</title>
+    <link rel="icon" href="assets/og.png">
+    <meta name="description" content="StuyCS Ipsum is a lorem ipsum generator for Stuyvesant High School Computer Science students.">
+    <meta name="og:title" content="StuyCS Ipsum">
+    <meta name="og:description" content="StuyCS Ipsum is a lorem ipsum generator for Stuyvesant High School Computer Science students.">
+    <meta name="og:image" content="assets/og.png">
+    <meta name="theme-color" content="#b0c4de">
+    <link rel="stylesheet" href="css/stuycs.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.2.0-beta/noty.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper"><a class="site-title" rel="author" href="/">StuyCS Ipsum</a><nav class="site-nav">
+            <input type="checkbox" id="nav-trigger" class="nav-trigger">
+            <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+            </label>
+
+        </nav></div>
+    </header>
+    <div class="container">
+        <h1>StuyCS Ipsum</h1>
+        <p>Generate StuyCS Ipsum in a flash. Just click the buttons below.</p>
+        <div class="configuration">
+            <!-- Some sliders to configure the number of paragraphs and sentences -->
+            <div class="slider">
+                <label for="paragraphs">Paragraphs: <span id="paragraphs-value">5</span></label>
+                <input type="range" name="paragraphs" id="paragraphs" min="1" max="50" value="5">
+            </div>
+            <div class="slider">
+                <label for="sentences">Sentences: <span id="sentences-value">5</span></label>
+                <input type="range" name="sentences" id="sentences" min="1" max="50" value="5">
+            </div>
+            <!-- Checkboxes to configure the type of text -->
+            <div class="checkbox">
+                <input type="checkbox" name="lorem" id="start-with" checked>
+                <label for="start-with">Start with "Stuy CS dolor sit amet..."</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="lorem" id="single-line">
+                <label for="single-line">Single line break (i.e. <code>&lt;br&gt;</code> instead of <code>&lt;br&gt;&lt;br&gt;</code>)</label>
+            </div>
+        </div>
+
+        <!-- The button to generate the ipsum -->
+        <button id="generate">Generate</button>
+        <button id="copy">Copy</button>
+        <br>
+        <br>
+        <!-- The div that will contain the ipsum -->
+        <div id="ipsum" class="ipsum"></div>
+
+        <!-- The footer -->
+    </div>
+
+    <br>
+    <footer class="site-footer h-card">
+        <data class="u-url" href="/"></data>
+
+        <div class="wrapper">
+
+            <h2 class="footer-heading">StuyCS Ipsum</h2>
+
+            <div class="footer-col-wrapper">
+                <div class="footer-col footer-col-1">
+                    <ul class="contact-list">
+                        <li class="p-name">StuyCS Ipsum</li><li><a class="u-email" href="mailto:stuycs.bot@gmail.com">stuycs.bot@gmail.com</a></li></ul>
+                </div>
+
+                <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+                </div>
+
+                <div class="footer-col footer-col-3">
+                    <p>StuyCS Ipsum offers a modern and thorough Ipsum solution, providing one of the best generation systems in the nation.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- The script -->
+    <script src="js/main.js"></script>
+</body>
