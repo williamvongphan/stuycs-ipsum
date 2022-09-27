@@ -5,7 +5,7 @@ let nouns = ["GUDCLEANLIVIN", "FRIST LSAT", "devo", "skeelton", "rona", "edihhh"
 	"onward+upward", "workshop", "googform", "googstuy",
 	"think: s i m p l e. think: s m a r t.", "uv-radiation-emitting devices", "nota bene", "great big repo of holding",
 	"s+s(+e)", "8000","880", "cobo", "gudfam", "team name portending greatness", "duckie", "ducky", "ppmp", "codingbat", "lisa", "marge", "homer", "moe", "bert", "( moony wormtail padfoot prongs )",
-	"qaf drop", "thinking straight", "mysterion", "big oh", "time of the rona", "softdevo", "ubuntu", "Mykolyk", "Dyrland-Weaver", "DW", "Brooks", "Holmes", "Alonso", "Dillon", "Konstantinovich", "Mouzakitis", "Platek", "how2cs@stuy", "Schedule-o-Matic", "read eval print loop", "FIFO", "deliverables", "whitespace"
+	"qaf drop", "thinking straight", "mysterion", "big oh", "time of the rona", "softdevo", "ubuntu", "Mykolyk", "Dyrland-Weaver", "DW", "Brooks", "Holmes", "Alonso", "Dillon", "Konstantinovich", "Mouzakitis", "Platek", "how2cs@stuy", "Schedule-o-Matic", "read eval print loop", "FIFO", "deliverables", "whitespace", "thluffy", "clyde"
 ]
 
 function createNoty(type, message) {
